@@ -1,6 +1,6 @@
 {
     "name": "stay29/from",
-    "description": "this is from projecct",
+    "description": "this is test project",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -8,9 +8,19 @@
             "name": "stay29",
             "email": "349833112@qq.com"
         }
+
     ],
     "minimum-stability": "dev",
     "require": {},
+    "autoload":{
+         "psr-4": {
+            "core\\": "core/",
+            "web\\": "web/"
+        },
+        "files": [
+            "core/function.php"
+        ]
+        },
     "repositories": {
         "packagist": {
             "type": "composer",
